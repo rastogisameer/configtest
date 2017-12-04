@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configtest
+  profiles:
+    active: development
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: user
+      password: 3e64d803-d435-4b78-a87a-c38ae7f454c8
